@@ -1,0 +1,6 @@
+context_path: airflow_k8s_plugin_demo.run.ProjectContext
+project_name: "Airflow K8S Plugin Demo"
+project_version: "0.16.6"
+package_name: "airflow_k8s_plugin_demo"
+hooks:
+  - airflow_k8s_plugin_demo.hooks.project_hooks
